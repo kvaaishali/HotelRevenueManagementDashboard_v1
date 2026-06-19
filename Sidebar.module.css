@@ -1,0 +1,68 @@
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1e293b;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.logoSection {
+  padding: 0 24px 20px;
+  border-bottom: 1px solid #334155;
+}
+
+.logoSection h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #38bdf8;
+}
+
+.navMenu {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px 16px;
+}
+
+.navLink {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  text-align: left;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.navLink:hover, .active {
+  background-color: #334155;
+  color: #fff;
+}
+
+.active {
+  background-color: #0284c7 !important;
+}
+
+.logoutBtn {
+  margin: 0 16px;
+  padding: 12px;
+  background-color: #ef4444;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logoutBtn:hover {
+  background-color: #dc2626;
+}
